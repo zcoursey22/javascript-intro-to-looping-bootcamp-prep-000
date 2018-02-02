@@ -4,12 +4,13 @@ function forLoop(array) {
   }
 }
 
-function maybeTrue() {
-  return Math.random() >= 0.5 // Returns a random number between 0 (inclusive) and 1 (exclusive)
+function whileLoop(n) {
+  while (n > 0) {
+    console.log(n);
+    n--;
+  }
 }
 
-function whileLoop(array) {
-  while (maybeTrue() && array.length > 0) {
-    
-  }
+function maybeTrue() {
+  return Math.random() >= 0.5 // Returns a random number between 0 (inclusive) and 1 (exclusive)
 }
