@@ -5,9 +5,7 @@ function forLoop(array) {
 }
 
 function whileLoop(array) {
-  counter = 0
-  while (counter < array.length) {
+  while (array.length > 0) {
     
-    counter++;
   }
 }
