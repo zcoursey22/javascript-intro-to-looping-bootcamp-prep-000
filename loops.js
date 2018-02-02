@@ -5,7 +5,7 @@ function forLoop(array) {
 }
 
 function whileLoop(array) {
-  while (maybeTrue()) {
+  while (maybeTrue() && array.length > 0) {
     
   }
 }
